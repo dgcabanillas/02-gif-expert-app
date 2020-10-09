@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useState } from 'react';
-import search from '../images/search.svg';
 
 const AddCategory = ( { setCategories } ) => {
 
@@ -41,7 +40,7 @@ const AddCategory = ( { setCategories } ) => {
                 value="Search"
                 className={active}
             > 
-                <img src={search} alt="search"/> 
+                <img src="https://img.icons8.com/android/24/000000/search.png" alt="search"/>
             </button>
         </form> 
     );
